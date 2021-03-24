@@ -1,3 +1,31 @@
-.hs {
-  font-size: 24px;
+.header {
+  padding-top: 25px;
+
+  &__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__bottom {
+  }
+}
+
+.logo {
+  &__img {
+  }
+}
+
+.contact-info {
+  display: flex;
+
+  &__icon {
+  }
+
+  &__text {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+  }
 }

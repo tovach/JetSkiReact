@@ -7,6 +7,8 @@ body {
   padding: 0;
   font-family: "SFProDisplay", sans-serif;
   font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
   color: $primary-text;
 }
 
@@ -41,7 +43,6 @@ h6 {
   margin: 0;
 }
 
-
 picture {
   display: block;
   margin: 0;
@@ -52,19 +53,12 @@ img {
   max-width: 100%;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .container {
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 165px;
+  padding: 0 15px;
 }
 
 .visually-hidden {
   @include visually-hidden;
 }
-
-
