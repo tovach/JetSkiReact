@@ -1,0 +1,14 @@
+.specials {
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__slider {
+    max-width: 870px;
+  }
+
+  &__best-offer {
+    max-width: 265px;
+  }
+}
