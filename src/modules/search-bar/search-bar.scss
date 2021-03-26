@@ -1,0 +1,32 @@
+.search-bar {
+  &__tabs {
+  }
+
+  &__form {
+  }
+}
+
+.search-tabs {
+  margin-bottom: 25px;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  &__item {
+  }
+}
+.search-form {
+  display: flex;
+  &__input {
+    width: 100%;
+    padding: 0 20px;
+
+    border: none;
+    background: $base-blocks;
+  }
+
+  &__submit {
+  }
+}

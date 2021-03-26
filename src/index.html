@@ -44,21 +44,21 @@
         <div class="user-bar">
           <ul class="user-bar__list">
             <li class="user-bar__item">
-              <a href="#">
+              <button class="button" type="button">
                 <img src="img/icons/bookmarks-icon.svg" alt="">
-              </a>
+              </butto>
             </li>
             <li class="user-bar__item">
-              <a href="#">
+              <button class="button" type="button">
                 <img src="img/icons/user-icon.svg" alt="">
-              </a>
+              </button>
             </li>
             <li class="user-bar__item">
               <div class="cart">
-                <a href="#">
+                <button class="button" type="button">
                   <img class="cart__icon" src="img/icons/cart-icon.svg" alt="">
                   <span class="cart__items-counter">1</span>
-                </a>
+                </button>
               </div>
             </li>
           </ul>
@@ -101,7 +101,7 @@
     </header>
 
     <main class="main">
-      <section class="specials mb80">
+      <section class="main__specials specials mb80">
         <h3 class="visually-hidden">Специальные предложения</h3>
 
         <div class="specials__wrapper">
@@ -171,6 +171,35 @@
         </div>
 
       </section>
+
+      <section class="main__search-bar search-bar mb80">
+        <h3 class="visually-hidden">Поиск товаров</h3>
+
+        <div class="search-bar__tabs search-tabs">
+          <ul class="search-tabs__list">
+            <li class="search-tabs__item">
+              <button class="button button--transparent" type="button">Поиск по  номеру</button>
+            </li>
+            <li class="search-tabs__item">
+              <button class="button button--secondary" type="button">Поиск по марке</button>
+            </li>
+            <li class="search-tabs__item">
+              <button class="button button--transparent" type="button">Поиск по названию товара</button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="search-bar__form">
+          <form class="search-form" action="#" method="post">
+            <input class=" search-form__input" type="text" placeholder="Введите марку ">
+            <button class="search-form__submit button button--primary" type="submit">Искать</button>
+          </form>
+        </div>
+
+        
+      </section>
+
+
     </main>
 
 

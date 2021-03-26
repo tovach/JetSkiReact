@@ -1,0 +1,43 @@
+.button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.button--primary {
+  padding: 15px 40px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: $base-white;
+  background: $accent-color;
+  text-transform: uppercase;
+
+  &:hover{
+    background: lighten($accent-color, 10);
+  }
+}
+
+.button--secondary {
+  padding: 10px 25px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  background: $base-blocks;
+
+  &:hover {
+    background: transparent;
+    border: 1px solid $base-blocks;
+  }
+}
+
+.button--transparent {
+  padding: 10px 25px;
+  font-size: 20px;
+  line-height: 24px;
+
+  &:hover {
+    border: 1px solid $base-blocks;
+  }
+}
