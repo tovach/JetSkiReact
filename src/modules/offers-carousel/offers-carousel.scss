@@ -1,0 +1,40 @@
+.offers-carousel {
+  &__title {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  &__tabs {
+  }
+
+  &__items {
+  }
+}
+.carousel-tabs {
+  margin-bottom: 25px;
+  &__list {
+  }
+
+  &__item {
+  }
+
+  &__button {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.carousel-items {
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 270px);
+    gap: 30px;
+    justify-content: center;
+  }
+
+  &__item {
+  }
+}
+

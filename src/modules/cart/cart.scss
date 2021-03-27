@@ -1,6 +1,4 @@
 .cart {
-  position: relative;
-
   &__icon {
   }
 
@@ -20,9 +18,20 @@
 
     font-size: 12px;
     font-weight: bold;
-    
+
     background: $accent-color;
     color: #fff;
-    
   }
+}
+.cart--w-counter {
+  position: relative;
+}
+.cart--accented {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 40px;
+  background: $accent-color;
+  border-radius: 10px 0px 0px 0px;
 }
