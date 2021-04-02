@@ -10,9 +10,9 @@
 </head>
 
 <body>
-  <div class=container>
-    <header class="header mb80">
 
+  <header class="header mb80">
+    <div class=container>
       <div class="header__top">
 
         <nav class="primary-nav">
@@ -97,10 +97,12 @@
           </ul>
         </div>
       </div>
+      <!--end container -->
+    </div>
+  </header>
 
-    </header>
-
-    <main class="main">
+  <main class="main">
+    <div class=container>
       <section class="main__specials specials mb80">
         <h3 class="visually-hidden">Специальные предложения</h3>
 
@@ -792,11 +794,101 @@
 
 
       </section>
-    </main>
+
+      <!--end container -->
+    </div>
+  </main>
 
 
-    <!--end container -->
-  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__row-1">
+        <div class="footer__col-1">
+          <div class="subscribe-email">
+            <p class="subscribe-email__text">
+              Подпишитесь на нашу рассылку
+              и узнавайте о акция быстрее
+            </p>
+            <div class="subscribe-email__form">
+              <input class="subscribe-email__input" type="text">
+              <button class="subscribe-email__submit button button--primary" type="submit">Отправить</button>
+            </div>
+          </div>
+        </div>
+        <div class="footer__col-2">
+          <div class="info-links">
+            <p class="info-links__text">Информация</p>
+            <ul class="info-links__list">
+              <li class="info-links__item">
+                <a href="#">О компании</a>
+              </li>
+              <li class="info-links__item">
+                <a href="#">Контакты</a>
+              </li>
+              <li class="info-links__item">
+                <a href="#">Акции</a>
+              </li>
+              <li class="info-links__item">
+                <a href="#">Магазины</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__col-3">
+          <div class="useful-links">
+            <p class="useful-links__text">Интернет-магазин</p>
+            <ul class="useful-links__list">
+              <li class="useful-links__item">
+                <a href="#">Доставка и самовывоз</a>
+              </li>
+              <li class="useful-links__item">
+                <a href="#">Оплата</a>
+              </li>
+              <li class="useful-links__item">
+                <a href="#">Возврат-обмен</a>
+              </li>
+              <li class="useful-links__item">
+                <a href="#">Новости</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__col-4">
+          <div class="social-links">
+            <p class="visually-hidden">Мы в соц-сетях</p>
+            <ul class="social-links__list">
+              <li class="social-links__item">
+                <a href="#"><img src="img/icons/instagram-icon.svg" alt=""></a>
+              </li>
+              <li class="social-links__item">
+                <a href="#"><img src="img/icons/vk-icon.svg" alt=""></a>
+              </li>
+              <li class="social-links__item">
+                <a href="#"><img src="img/icons/facebook-icon.svg" alt=""></a>
+              </li>
+              <li class="social-links__item">
+                <a href="#"><img src="img/icons/youtube-icon.svg" alt=""></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__row-2">
+        <div class="documents-links">
+          <ul class="documents-links__list">
+            <li class="documents-links__item">
+              <a href="#">Договор оферты</a>
+            </li>
+            <li class="documents-links__item">
+              <a href="#">Политика обработки персональных данных</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </body>
 
 </html>
