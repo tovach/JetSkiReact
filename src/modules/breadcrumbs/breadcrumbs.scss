@@ -1,0 +1,23 @@
+.breadcrumbs {
+  &__list {
+    display: flex;
+    gap: 15px;
+  }
+
+  &__item {
+    font-size: 15px;
+    line-height: 18px;
+    color: $secondary-text;
+
+    &::after {
+      content: ">";
+      margin-left: 10px;
+    }
+
+    &:last-child {
+      &::after {
+        content: none;
+      }
+    }
+  }
+}
