@@ -1,0 +1,20 @@
+.tabs {
+  &__list {
+  }
+
+  &__item {
+  }
+
+  &__button {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.tabs--full-width{
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

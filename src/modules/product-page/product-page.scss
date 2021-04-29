@@ -1,0 +1,231 @@
+.main-product-page {
+  &__breadcrumbs {
+    margin-bottom: 40px;
+  }
+
+  &__product-about {
+    margin-bottom: 80px;
+  }
+
+  &__product-nav {
+    margin-bottom: 50px;
+  }
+
+  &__upsale-offers {
+  }
+}
+
+.product-about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+
+  &__left {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  &__right {
+    max-width: 570px;
+  }
+
+  &__image {
+  }
+
+  &__badge {
+  }
+
+  &__old-price {
+    margin-bottom: 5px;
+    h3 {
+      font-size: 30px;
+      line-height: 36px;
+      text-decoration: line-through;
+      color: #000000;
+      opacity: 0.6;
+      font-weight: normal;
+    }
+  }
+
+  &__current-price {
+    margin-bottom: 15px;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  &__special-price {
+  }
+
+  &__title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  &__product-code {
+    font-size: 15px;
+    line-height: 18px;
+    opacity: 0.6;
+  }
+
+  &__media-bar {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+
+  &__add-bookmark {
+  }
+
+  &__compare {
+  }
+
+  &__rating {
+  }
+
+  &__tabs {
+  }
+
+  &__characteristics {
+  }
+
+  &__buy {
+  }
+
+  &__avail-shop {
+  }
+}
+
+.product-code {
+  &__descr {
+  }
+}
+
+.compare {
+}
+
+.rating {
+  &__list {
+    display: flex;
+    gap: 7px;
+  }
+
+  &__item {
+  }
+}
+
+.product-tabs {
+}
+
+.characteristics {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      height: 1px;
+      left: 0;
+      right: 0;
+      background: #2f3035;
+      opacity: 0.1;
+    }
+  }
+
+  &__label {
+    flex-basis: 280px;
+  }
+
+  &__value {
+  }
+
+  &__show-more {
+  }
+}
+.product-buy {
+}
+
+.product-nav {
+  background: $base-blocks;
+
+  &__tabs {
+  }
+}
+.avail-shop {
+  &__header {
+    margin-bottom: 50px;
+  }
+
+  &__search-shop {
+  }
+
+  &__table {
+  }
+}
+.search-shop {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  line-height: 20px;
+  color: #6e6e72;
+  &__label {
+    margin-right: 5px;
+  }
+
+  &__input {
+    background: $base-blocks;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 0;
+    padding-right: 30px;
+  }
+
+  &__submit {
+    margin-top: 2px;
+    margin-left: -30px;
+  }
+
+  &__pickup {
+    margin-left: 25px;
+  }
+}
+.pickup {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+
+  &__option {
+  }
+}
+
+.shop-schedule {
+  &__list {
+    margin: 0;
+
+  }
+
+  &__item {
+    display: flex;
+  }
+
+  &__days {
+    margin: 0;
+    margin-right: 5px;
+
+  }
+
+  &__hours {
+    margin: 0;
+  }
+}

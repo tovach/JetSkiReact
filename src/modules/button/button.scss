@@ -72,3 +72,10 @@
     background: $accent-color;
   }
 }
+
+.button--accented-xs {
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: underline;
+  color: $accent-color;
+}
